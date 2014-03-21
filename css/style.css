@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(102,102,102,0.0); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(102,102,102,0.3); 
+    -webkit-box-shadow: inset 0 0 6px rgba(102,102,102,0.3); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(102,102,102,0.3); 
+}
+
+*{margin:0px;padding:0px}
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(../images/bg_body.jpg) no-repeat center fixed
+}
+#bodyweb{
+	width:1020px;
+	height:600px;
+	margin:0px auto 0px auto;
+	overflow: hidden;
+}
+#menusearch{
+	width:1020px;
+	height:49px;
+	background:url(../images/bg_search.jpg);
+}
+#search{
+	width:150px;
+	height:20px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	margin-left:35px;
+	margin-top:14px;
+	float:left;
+	background:#FFF url(../images/iconsearch.png) no-repeat;
+	padding-left:24px;
+}
+#search:focus{
+	outline:none;
+}
+#fb{
+	width:30px;
+	height:31px;
+}
+#gmail{
+	margin-right:35px;	
+}
+.icon{
+	margin-top:10px;
+	margin-right:10px;
+	float:right;
+}
+
+#bbweb{
+	width:1020px;
+	height:456px;
+	background:url(../images/bg_web.jpg);
+	overflow-y:scroll;
+	float:left;
+}
+#allweb{
+	width:10000px;
+	height:456px;
+	background:#F90;
+	position:relative;
+}
+#avatar{
+	margin-top:47px;
+	margin-left:465px;
+}
+#name{
+	font-style:italic;
+	font-size:25px;
+	font-weight:bold;
+	color:#ccc;
+	margin-left:398px;
+	margin-top:15px;
+}
+#daunhay1{
+	margin-left:155px;
+	margin-top:25px;
+	float:left;
+}
+#t{
+	margin-top:27px;
+	float:left;
+	font-family:UVN Con Thuy;
+	font-size:40px;
+	color:#999;
+}
+#t2{
+	margin-top:-25px;
+	font-family:UVN Con Thuy;
+	float:left;
+	font-size:40px;
+	color:#999;
+	margin-left:200px;
+	
+}
+#aboutme{
+	margin-top:40px;
+	margin-left:210px;
+	color:#ccc;
+	line-height:45px;
+}
+#daunhay2{
+	margin-left:650px;
+	margin-top:-30px;
+}
+
+#textpm{
+	font-size:15px;
+	font-weight:bold;
+	margin-left:155px;
+	color:#CCC;
+	margin-top:50px;
+}
+.star{
+	width:20px;
+	height:20px;
+	float:left;
+	margin-top:30px;
+}
+.iconsof{
+	float:left;
+	margin-top:60px;
+}
+
+.rightlogo{
+	margin-left:45px;
+}
+
+.leftlogo{
+	margin-left:210px;
+}
+
+.imgsof{
+	width:80px;
+	height:80px;
+	float:left;
+}
+#btweb{
+	width:1020px;
+	height:96px;
+	background:url(../images/bg_menu.jpg);
+}
+#home{
+	width:30px;
+	height:30px;
+	margin-left:155px;
+	float:left;
+	margin-top:17px;
+}
+#btweb ul li{
+	list-style:none;	
+}
+.menu{
+	float:left;
+	margin-top:25px;
+}
+.dmenu{
+	width: 110px;
+	height:25px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	text-align: center;
+	margin-left:50px;
+	margin-top:-5px;
+	padding-top:5px;
+	font-size:18px;
+	font-weight:bold;
+	color:#CCC;
+}
+
+
+.dmenu:hover{
+  background-color:#333;
+  cursor: pointer;
+}
+
+#home:hover{
+  color:#333;
+  cursor: pointer;
+}
+
+#photography{
+	width: 150px;
+}
+.webds{
+	width:1020px;
+	height:456px;
+	background:url(../images/bg_web.jpg);
+	float:left;
+}
+.webdesign{
+	width:1020px;
+	height:388px;
+	overflow-y:scroll;
+}
+
+.log{
+	margin-top:20px;
+}
+.ssanpham{
+	width:190px;
+	height:130px;
+	margin-left:50px;
+	margin-top:63px;
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.8);
+	-moz-box-shadow:    5px 5px 5px 0px rgba(0, 0, 0, 0.8);
+	box-shadow:         5px 5px 5px 0px rgba(0, 0, 0, 0.8);
+}
+#daithem{
+	height:100px;	
+}
