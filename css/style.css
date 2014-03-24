@@ -31,7 +31,7 @@ body{
 	width:1020px;
 	height:600px;
 	margin:0px auto 0px auto;
-	overflow: hidden;
+  overflow:hidden;
 }
 #menusearch{
 	width:1020px;
@@ -58,7 +58,7 @@ body{
 	height:31px;
 }
 #gmail{
-	margin-right:35px;	
+	margin-right:35px;
 }
 .icon{
 	margin-top:10px;
@@ -66,13 +66,14 @@ body{
 	float:right;
 }
 
-#bbweb{
+.bbweb{
 	width:1020px;
 	height:456px;
 	background:url(../images/bg_web.jpg);
 	overflow-y:scroll;
 	float:left;
 }
+
 #allweb{
 	width:10000px;
 	height:456px;
@@ -82,6 +83,10 @@ body{
 #avatar{
 	margin-top:47px;
 	margin-left:465px;
+	border-radius: 60px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	border:#FFF solid 4px;
 }
 #name{
 	font-style:italic;
@@ -167,7 +172,7 @@ body{
 	margin-top:17px;
 }
 #btweb ul li{
-	list-style:none;	
+	list-style:none;
 }
 .menu{
 	float:left;
@@ -228,4 +233,129 @@ body{
 }
 #daithem{
 	height:100px;	
+}
+
+#webmusic{
+	width:1020px;
+	height:456px;
+	background-image:url(../images/bg_web.jpg);
+	float:left;	
+}
+
+.ochuaicon{
+	width:90px;
+	height:83px;
+	background-image:url(../images/oicon.png)
+}
+
+#ochuadienthoai{
+	margin-top:60px;
+	margin-left:340px;
+}
+
+#ochuaemail{
+	margin-left:585px;
+	margin-top:-115px;
+}
+
+#ocontactme{
+	width:150px;
+	height:130px;
+	background-image:url(../images/ocontactme.png);
+	margin-left:435px;
+	margin-top:50px;
+}
+
+#ochuaggmap{
+	margin-left:305px;
+	margin-top:-1px;
+}
+
+#ochuaskype{
+	margin-left:585px;
+	margin-top:-35px;
+}
+
+#dienthoaiicon{
+	margin-left:35px;
+	margin-top:20px;
+}
+
+#emailicon{
+	margin-left: 28px;
+	margin-top: 25px;
+}
+
+#ggmapicon{
+	margin-left: 28px;
+	margin-top: 23px;	
+}
+
+#skypeicon{
+	margin-left: 28px;
+	margin-top: 22px;	
+}
+
+#iconphoneon{
+	margin-top: -86px;
+	margin-left: -14px;	
+}
+
+#hrphone{
+	margin-top: -100px;
+	margin-left: -142px;	
+}
+
+#iconmailon{
+	margin-top: -77px;
+	margin-left: -16px;	
+}
+
+#hrmail{
+	margin-top: -87px;
+	margin-left: 70px;	
+}
+
+#iconmapon{
+	margin-top: -79px;
+	margin-left: -13px;	
+}
+
+#hrmap{
+	margin-top: -41px;
+	margin-left: -295px;	
+}
+
+#iconskypeon{
+	margin-top: -84px;
+	margin-left: -16px;	
+}
+
+#hrskype{
+	margin-top: -100px;
+	margin-left: 67px;	
+}
+
+.note{
+	color:#FFF;
+}
+
+#sdt{
+	margin-top: -122px;
+	margin-left: -105px;	
+}
+
+#notemail{
+	margin-top: -110px;
+	margin-left: 98px;	
+}
+
+#notemap{
+	margin-top: -27px;
+	margin-left: -295px;	
+}
+
+#noteskype{
+	margin-top: -122px;
+	margin-left: 110px;	
 }
